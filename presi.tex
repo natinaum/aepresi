@@ -1,0 +1,77 @@
+\begin{frame}{Gliederung}
+\protect\hypertarget{gliederung}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Was sind Pointer?
+\item
+  Arithmetische Optionen
+\item
+  Anwendungsbeispiele
+\item
+  Heap vs.~Stack
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Was sind Pointer?}
+\protect\hypertarget{was-sind-pointer}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Feld welches Adresse zu anderem Feld enthält
+\item
+  genutzt bei machinennahen Sprachen
+\item
+  genutzt in beispielsweis Assembler und C
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Arithmethische Operationen}
+\protect\hypertarget{arithmethische-operationen}{}
+
+\begin{block}{zwischen Pointern}
+
+\begin{itemize}
+\tightlist
+\item
+  Subtrahieren
+\item
+  Addieren ist nicht erlaubt
+\end{itemize}
+
+\end{block}
+
+\begin{block}{zwischen Pointer und Ganzzahl}
+
+\begin{itemize}
+\tightlist
+\item
+  Subtrahieren
+\item
+  Addieren
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}[fragile]{Anwendungsbeispiele}
+\protect\hypertarget{anwendungsbeispiele}{}
+
+\begin{itemize}
+\tightlist
+\item
+  Rückgabe von Werten über Scope hinaus
+\item
+  Strings
+\item
+  Itteration durch Array
+\end{itemize}
+
+\texttt{printf("\%i",\ a{[}i{]})\ \textless{}-\textgreater{}\ printf("\%i",\ *(a+i))}
+
+\end{frame}
