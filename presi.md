@@ -1,6 +1,6 @@
 ---
 title: Pointer Arithmetik
-author: Yannik Hellmuth, Philipp Scott
+author: Yannik Hellmuth, Philipp Skott
 theme: metropolis
 ---
 
