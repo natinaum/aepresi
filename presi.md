@@ -10,9 +10,12 @@ theme: metropolis
 - Anwendungsbeispiele
 
 # Was sind Pointer?
-- Feld welches Adresse zu anderem Feld enthält
+- Wert als Speicheradresse
 - genutzt bei machinennahen Sprachen
-- genutzt in beispielsweis Assembler und C
+- genutzt in beispielsweis Assembler und C(++)
+
+# Dereferenzierung
+- Zugriff auf vom Pointer gezeigtes Objekt
 
 # Arithmethische Operationen
 
@@ -28,6 +31,10 @@ theme: metropolis
 - Rückgabe von Werten über Scope hinaus
 - Strings
 - Itteration durch Array
+- verkettete Listen
 
 `` printf("%i", a[i]) <-> printf("%i", *(a+i))``
 
+# Probleme
+- buffer overflow
+- segmentation fault
