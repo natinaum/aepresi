@@ -6,7 +6,7 @@ theme: metropolis
 
 # Gliederung
 - Was sind Pointer?
-- Arithmetische Optionen
+- Arithmetische Operationen
 - Anwendungsbeispiele
 
 # Was sind Pointer?
