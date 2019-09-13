@@ -10,10 +10,7 @@ theme: metropolis
 - Anwendungsbeispiele
 
 # Was sind Pointer?
-- Wert als Speicheradresse
-- genutzt bei machinennahen Sprachen
-- genutzt in beispielsweis Assembler und C(++)
-
+![Fig. 1](pointer.jpeg)
 # Dereferenzierung
 - Zugriff auf vom Pointer gezeigtes Objekt
 
